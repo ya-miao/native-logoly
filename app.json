@@ -4,7 +4,7 @@
     "slug": "native-logoly",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/liftdevlog-logo-white-0.png",
+    "icon": "./app/assets/liftdevlog-logo-white-0.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./app/assets/splash.png",
