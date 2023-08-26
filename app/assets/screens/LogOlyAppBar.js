@@ -19,10 +19,6 @@ const LogOlyAppBar = () => {
     return null;
   }
 
-  const fontConfig = {
-    fontFamily: 'Orbitron',
-  };
-
   return (
     <Appbar.Header
       mode='small'

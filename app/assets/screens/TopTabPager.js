@@ -1,7 +1,7 @@
 import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
 // import { Text, View } from 'react-native';
 import { View } from 'react-native';
-import { Text } from 'react-native-paper';
+import { Text, Tooltip } from 'react-native-paper';
 import { NavigationContainer } from '@react-navigation/native';
 import { useTheme } from 'react-native-paper';
 
@@ -55,7 +55,9 @@ function TopTabPager() {
             tabBarShowLabel: false,
             // tabBarShowLabel: true,
             tabBarIcon: ({ color }) => (
-              <MaterialCommunityIcons name="dumbbell" color={color} size={26} />
+              <Tooltip title="Selected Camera">
+                <MaterialCommunityIcons name="dumbbell" color={color} size={26} />
+              </Tooltip>
             )
           }}
         />

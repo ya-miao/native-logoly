@@ -22,7 +22,6 @@ export default function App() {
     fontFamily: 'Montserrat',
   };
 
-
   const theme = {
     fonts: configureFonts({ config: fontConfig }),
     roundness: 1,
